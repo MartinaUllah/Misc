@@ -1,0 +1,395 @@
+﻿@model PracticeHtml.Models.Display
+
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>@Model.Earnings</h1>
+
+@*<div class="container">
+        <h1>Hello World!</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
+        <div class="row">
+            <div class="col-md-2" style="background-color:darkseagreen; text-align:center;">Left Side Bar</div>
+            <div class="col-md-8"style="background-color:blueviolet; text-align:center;">Main Content Area</div>
+            <div class="col-md-2"style="background-color:darkseagreen; text-align:center;">Right Side Bar</div>
+        </div>
+    </div>*
+
+
+
+
+
+
+@*<div class="container">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>*@
+
+
+
+
+
+
+@*<div class="container">
+    <h2>Basic Table</h2>
+    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>**@
+
+
+
+
+@*<div class="container">
+            <h2>Basic Table</h2>
+            <p>The .table-bordered class adds borders to a table:</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>*@
+
+
+
+
+@*<div class="container">
+            <h2>Basic Table</h2>
+            <p>The .table-hover class enables a hover state on table rows:</p>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>*@
+
+
+
+
+
+
+@*<div class="container">
+                    <h2>Basic Table</h2>
+                    <p>The .table-condensed class makes a table more compact by cutting cell padding in half:</p>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>July</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>*@
+
+
+
+
+
+    @*<div class="container">
+          <h2>Contextual Classes</h2>
+          <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Default</td>
+                <td>Defaultson</td>
+                <td>def@somemail.com</td>
+              </tr>
+              <tr class="success">
+                <td>Success</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr class="danger">
+                <td>Danger</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr class="info">
+                <td>Info</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+              <tr class="warning">
+                <td>Warning</td>
+                <td>Refs</td>
+                <td>bo@example.com</td>
+              </tr>
+              <tr class="active">
+                <td>Active</td>
+                <td>Activeson</td>
+                <td>act@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>*@
+
+
+
+
+
+@*<div class="container">
+      <h2>Table</h2>
+      <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>
+      <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Anna</td>
+            <td>Pitt</td>
+            <td>35</td>
+            <td>New York</td>
+            <td>USA</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>*@
+
+
+
+@*<div class="container">
+    <h2>Button Styles</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+</div>*@
+
+
+
+
+
+@*<div class="Container">
+    <h2>Button Tags</h2>
+    <a href="https://www.seznam.cz/" class="btn btn-info" role="button">Seznam</a>
+    <button type="button" class="btn btn-info">Button</button>
+    <input type="button" class="btn btn-info" value="Input Button">
+    <input type="submit" class="btn btn-info" value="Submit Button">
+</div>*@
+
+
+
+
+
+@*<div class="container">
+    <h2>Button Sizes</h2>
+    <button type="button" class="btn btn-primary btn-lg">Large</button>
+    <button type="button" class="btn btn-primary btn-md">Medium</button>
+    <button type="button" class="btn btn-primary btn-sm">Small</button>
+    <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+</div>*@
+
+
+
+
+
+@*<div class="container">
+    <h2>Block Level Buttons</h2>
+    <button type="button" class="btn btn-primary btn-block">Button 1</button>
+    <button type="button" class="btn btn-default btn-block">Button 2</button>
+    
+    <h2>Large Block Level Buttons</h2>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+    <button type="button" class="btn btn-default btn-lg btn-block">Button2</button>
+
+    <h2>Small Block Level Buttons</h2>
+
+    <button type="button" class="btn btn-primary btn-sm btn-block">Button1</button>
+    <button type="button" class="btn btn-default btn-sm btn-block">Button2</button>
+</div>*@
+
+
+
+
+
+@*<div class="container">
+    <h2>Button States</h2>
+    <button type="button" class="btn btn-primary">Primary Button</button>
+    <button type="button" class="btn btn-primary active">Active Primary</button>
+    <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+</div>*@
+
+
+
+
+@*<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+        <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="https://html.com/">HTML</a></li>
+        <li><a href="https://html.com/">CSS</a></li>
+        <li><a href="https://html.com/">JavaScript</a></li>
+    </ul>
+</div>*@
+
+
+
+
+@*<div class="container">
+    <h2>Dropdowns</h2>
+    <p>The .divider class is used to separate links inside the dropdown menu with a thin horizontal line:</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a href="https://html.com/">HTML</a></li>
+            <li><a href="https://html.com/">CSS</a></li>
+            <li><a href="https://html.com/">JavaScript</a></li>
+            <li class="divider"></li>
+            <li><a href="https://html.com/about/">About us</a></li>
+        </ul>
+    </div>
+</div>*@
+
+
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://html.com/">WebSiteName</a>
+        </div>       
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="https://html.com/about/">Home</a></li>    
+        <li><a href="https://html.com/">Page 1</a></li>
+        <li><a href="https://html.com/">Page 2</a></li>
+        <li><a href="https://html.com/">Page 3</a></li>
+      </ul>
+   </div>
+</nav>
